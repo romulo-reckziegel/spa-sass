@@ -1,0 +1,17 @@
+@import '../abstract/_var.scss'
+
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+
+footer
+    color: $cor-alt
+    text-align: center
+    font-size: 20px
+    border-top: 2px solid $cor-alt
+    margin-top: 1rem
+    padding: 1.2rem
+    @include bg-cores($cor-secundaria, $cor-primaria, $cor-terciaria, $cor-secundaria)
+    i
+        color: $cor-alt
+

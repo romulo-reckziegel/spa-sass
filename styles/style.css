@@ -1,0 +1,195 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #364F6B;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #3FC1C9;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.inner-banner {
+  padding: 2rem;
+  background-color: #FFD66B;
+  opacity: 0.9;
+  border-radius: 45px;
+  text-align: center;
+}
+.inner-banner h1 {
+  font-size: 3rem;
+  color: #364F6B;
+}
+.inner-banner h2 {
+  font-size: 1.5rem;
+}
+
+#service {
+  margin: 80px;
+}
+#service h4 {
+  font-size: 1.2rem;
+  color: #364F6B;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#service h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+#service .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#service .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#service .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #FC5185;
+}
+#service .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #364F6B;
+  line-height: 1.5rem;
+}
+#service .cards .card .img-container {
+  padding-bottom: 1rem;
+  border-bottom: 6px solid #3FC1C9;
+}
+#service .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#coupon {
+  background-color: #3FC1C9;
+  padding: 4rem;
+  text-align: center;
+}
+#coupon .text {
+  color: #364F6B;
+}
+#coupon .text h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#coupon .text i {
+  color: #FC5185;
+}
+#coupon .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#coupon .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#coupon .input:hover, #coupon .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #364F6B;
+  outline: none;
+}
+#coupon button {
+  text-transform: uppercase;
+  margin: 1rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #3FC1C9;
+  color: #FC5185;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #FC5185;
+  border-radius: 40px;
+}
+#coupon button:hover {
+  color: #3FC1C9;
+  background-color: #FC5185;
+  border-color: #3FC1C9;
+}
+
+footer {
+  color: #B8B5FF;
+  text-align: center;
+  font-size: 20px;
+  border-top: 2px solid #B8B5FF;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #3FC1C9, #FC5185, #364F6B, #3FC1C9);
+}
+footer i {
+  color: #B8B5FF;
+}
+
+.merch {
+  display: flex;
+  align-items: center;
+  margin: auto 20vw;
+  padding: 6rem 0;
+}
+.merch .merch__text {
+  background-color: #364F6B;
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0px 0px 5px 0px;
+  line-height: 2rem;
+}
+.merch .merch__text h3 {
+  color: #3FC1C9;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+.merch .merch__text h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.merch .merch__text p {
+  color: #B8B5FF;
+}
+.merch .merch__img {
+  opacity: 90%;
+}/*# sourceMappingURL=style.css.map */
